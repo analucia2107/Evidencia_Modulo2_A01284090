@@ -1,7 +1,5 @@
 # MomentoRetro_Modulo2_A01284090
 
-# MomentoRetro_Modulo2_A01284090
-
 ## Descripción del modelo
 El modelo a utilizar en este momento de retroalimentación es el "Decision Tree Classifier" es un modelo de aprendizaje automático que nos muestra en manera de un árbol con "raíz" (la parte más alta del gráfico), "ramas", y las "hojas" (la parte final o más baja del árbol). Se empieza con una sola pregunta y dependiendo de la respuesta, se va abriendo el árbol con ramas basándose en las características con las que se pueden responder las preguntas. Cada vez que se responde la pregunta, si por ejemplo la pregunta es ¿Tiene patas? y buscamos que el animal si tenga patas y el animal en la imagen no las tiene, al responder que no, el nodo va a abrirse con otra pregunta y se vuelve a dividir en grupos dependiendo la respuesta hasta llegar a las hojas, donde se van a asignar etiquetas basadas en las respuestas anteriores.
 
