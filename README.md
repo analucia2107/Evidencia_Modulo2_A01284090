@@ -1,4 +1,4 @@
-* [Momento de Retroalimentación: Módulo 2 Uso de framework o biblioteca de aprendizaje máquina para la implementación de una solución. (Portafolio Implementación)](https://github.com/analucia2107/MomentoRetro_Modulo2_A01284090/blob/main/MomentoRetro_Modulo2_A01284090.ipynb)
+* [Momento de Retroalimentación: Módulo 2 Uso de framework o biblioteca de aprendizaje máquina para la implementación de una solución. (Portafolio Implementación)](MomentoRetro_Modulo2_A01284090.ipynb)
 * [Momento de Retroalimentación: Módulo 2 Análisis y Reporte sobre el desempeño del modelo. (Portafolio Análisis)](https://github.com/analucia2107/MomentoRetro_Modulo2_A01284090/blob/main/MometoRetro_Modulo2_AnalisisyReporte_A01284090.ipynb)
 
 # MomentoRetro_Modulo2_A01284090
