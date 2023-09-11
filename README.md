@@ -1,9 +1,10 @@
+# MomentoRetro_Modulo2_A01284090
+
 ### Archivos para evaluar
 * [Momento de Retroalimentación: Módulo 2 Uso de framework o biblioteca de aprendizaje máquina para la implementación de una solución. (Portafolio Implementación)](MomentoRetro_Modulo2_A01284090.ipynb)
 * [Momento de Retroalimentación: Módulo 2 Análisis y Reporte sobre el desempeño del modelo. (Portafolio Análisis)](https://github.com/analucia2107/MomentoRetro_Modulo2_A01284090/blob/main/MometoRetro_Modulo2_AnalisisyReporte_A01284090.ipynb)
 
-# MomentoRetro_Modulo2_A01284090
-
+# Portafolio de Implementación
 ## Descripción del modelo
 El modelo a utilizar en este momento de retroalimentación es el "Decision Tree Classifier" es un modelo de aprendizaje automático que nos muestra en manera de un árbol con "raíz" (la parte más alta del gráfico), "ramas", y las "hojas" (la parte final o más baja del árbol). Se empieza con una sola pregunta y dependiendo de la respuesta, se va abriendo el árbol con ramas basándose en las características con las que se pueden responder las preguntas. Cada vez que se responde la pregunta, si por ejemplo la pregunta es ¿Tiene patas? y buscamos que el animal si tenga patas y el animal en la imagen no las tiene, al responder que no, el nodo va a abrirse con otra pregunta y se vuelve a dividir en grupos dependiendo la respuesta hasta llegar a las hojas, donde se van a asignar etiquetas basadas en las respuestas anteriores.
 
@@ -45,58 +46,57 @@ El problema a resolver con este dataset es la "clasificación" de las flores bas
 ## Predicciones realizadas con valores de prueba y de validación
 Se llevaron a cabo 3 pruebas diferentes tanto con valores de prueba como con valores de validación donde los resultados fueron los siguientes:
 
-Predicción con modelo de Entropy y Max Depth 3:
-Prueba 1: ['Iris-setosa']
-Prueba 2: ['Iris-versicolor']
-Prueba 3: ['Iris-virginica']
+*Predicción con modelo de Entropy y Max Depth 3:*
+- Prueba 1: ['Iris-setosa']
+- Prueba 2: ['Iris-versicolor']
+- Prueba 3: ['Iris-virginica']
 
-Predicción con modelo de Entropy y Max Depth 3:
-Prueba 1: ['Iris-setosa']
-Prueba 2: ['Iris-versicolor']
-Prueba 3: ['Iris-virginica']
+*Predicción con modelo de Entropy y Max Depth 3:*
+- Prueba 1: ['Iris-setosa']
+- Prueba 2: ['Iris-versicolor']
+- Prueba 3: ['Iris-virginica']
 
-Predicción con modelo validacion:
-Prueba 1: ['Iris-setosa']
-Prueba 2: ['Iris-versicolor']
-Prueba 3: ['Iris-virginica']
+*Predicción con modelo validacion:*
+- Prueba 1: ['Iris-setosa']
+- Prueba 2: ['Iris-versicolor']
+- Prueba 3: ['Iris-virginica']
 
 ## Comparación entre predicciones generadas y los valores que debieron obtenerse
 Generamos una serie de pruebas con distintos hiperparámetros pero por motivos de espacio y orden, solo imprimimos 10 de los resultados de cada una de las pruebas.
 *Comparación de predicciones con valores reales (Entropy y Max Depth 3):*
-Predicción: Iris-setosa, Valor Real: Iris-setosa
-Predicción: Iris-versicolor, Valor Real: Iris-versicolor
-Predicción: Iris-versicolor, Valor Real: Iris-versicolor
-Predicción: Iris-setosa, Valor Real: Iris-setosa
-Predicción: Iris-virginica, Valor Real: Iris-virginica
-Predicción: Iris-versicolor, Valor Real: Iris-versicolor
-Predicción: Iris-virginica, Valor Real: Iris-virginica
-Predicción: Iris-setosa, Valor Real: Iris-setosa
-Predicción: Iris-setosa, Valor Real: Iris-setosa
-Predicción: Iris-virginica, Valor Real: Iris-virginica
+- Predicción: Iris-setosa, Valor Real: Iris-setosa
+- Predicción: Iris-versicolor, Valor Real: Iris-versicolor
+- Predicción: Iris-versicolor, Valor Real: Iris-versicolor
+- Predicción: Iris-setosa, Valor Real: Iris-setosa
+- Predicción: Iris-virginica, Valor Real: Iris-virginica
+- Predicción: Iris-versicolor, Valor Real: Iris-versicolor
+- Predicción: Iris-virginica, Valor Real: Iris-virginica
+- Predicción: Iris-setosa, Valor Real: Iris-setosa
+- Predicción: Iris-setosa, Valor Real: Iris-setosa
+- Predicción: Iris-virginica, Valor Real: Iris-virginica
 
 
 *Comparación de predicciones con valores reales (Entropy y Max Depth 4 y random state 25):*
-Predicción: Iris-setosa, Valor Real: Iris-setosa
-Predicción: Iris-versicolor, Valor Real: Iris-versicolor
-Predicción: Iris-virginica, Valor Real: Iris-versicolor
-Predicción: Iris-versicolor, Valor Real: Iris-versicolor
-Predicción: Iris-virginica, Valor Real: Iris-virginica
-Predicción: Iris-versicolor, Valor Real: Iris-versicolor
-Predicción: Iris-virginica, Valor Real: Iris-virginica
-Predicción: Iris-setosa, Valor Real: Iris-setosa
-Predicción: Iris-versicolor, Valor Real: Iris-versicolor
-Predicción: Iris-versicolor, Valor Real: Iris-versicolor
-
+- Predicción: Iris-setosa, Valor Real: Iris-setosa
+- Predicción: Iris-versicolor, Valor Real: Iris-versicolor
+- Predicción: Iris-virginica, Valor Real: Iris-versicolor
+- Predicción: Iris-versicolor, Valor Real: Iris-versicolor
+- Predicción: Iris-virginica, Valor Real: Iris-virginica
+- Predicción: Iris-versicolor, Valor Real: Iris-versicolor
+- Predicción: Iris-virginica, Valor Real: Iris-virginica
+- Predicción: Iris-setosa, Valor Real: Iris-setosa
+- Predicción: Iris-versicolor, Valor Real: Iris-versicolor
+- Predicción: Iris-versicolor, Valor Real: Iris-versicolor
 
 *Comparación de predicciones con valores de Validacion:*
-Predicción: Iris-setosa, Valor Real: Iris-setosa
-Predicción: Iris-versicolor, Valor Real: Iris-versicolor
-Predicción: Iris-versicolor, Valor Real: Iris-versicolor
-Predicción: Iris-setosa, Valor Real: Iris-setosa
-Predicción: Iris-virginica, Valor Real: Iris-virginica
-Predicción: Iris-versicolor, Valor Real: Iris-versicolor
-Predicción: Iris-virginica, Valor Real: Iris-virginica
-Predicción: Iris-setosa, Valor Real: Iris-setosa
-Predicción: Iris-setosa, Valor Real: Iris-setosa
-Predicción: Iris-virginica, Valor Real: Iris-virginica
+- Predicción: Iris-setosa, Valor Real: Iris-setosa
+- Predicción: Iris-versicolor, Valor Real: Iris-versicolor
+- Predicción: Iris-versicolor, Valor Real: Iris-versicolor
+- Predicción: Iris-setosa, Valor Real: Iris-setosa
+- Predicción: Iris-virginica, Valor Real: Iris-virginica
+- Predicción: Iris-versicolor, Valor Real: Iris-versicolor
+- Predicción: Iris-virginica, Valor Real: Iris-virginica
+- Predicción: Iris-setosa, Valor Real: Iris-setosa
+- Predicción: Iris-setosa, Valor Real: Iris-setosa
+- Predicción: Iris-virginica, Valor Real: Iris-virginica
 
