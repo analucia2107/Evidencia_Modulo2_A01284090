@@ -1,3 +1,4 @@
+### Archivos para evaluar
 * [Momento de Retroalimentación: Módulo 2 Uso de framework o biblioteca de aprendizaje máquina para la implementación de una solución. (Portafolio Implementación)](MomentoRetro_Modulo2_A01284090.ipynb)
 * [Momento de Retroalimentación: Módulo 2 Análisis y Reporte sobre el desempeño del modelo. (Portafolio Análisis)](https://github.com/analucia2107/MomentoRetro_Modulo2_A01284090/blob/main/MometoRetro_Modulo2_AnalisisyReporte_A01284090.ipynb)
 
@@ -9,19 +10,93 @@ El modelo a utilizar en este momento de retroalimentación es el "Decision Tree 
 Este modelo guarda y analiza toda la información de preguntas y características para poder clasificar nuevos ejemplos en otros posibles archivos y así poder resolcer un problema de clasificación de una manera más sencilla y rápida por su habilidad de capturar patrones y relaciones de los datos.
 
 ## Descripción de dataset IRIS
-El dataset con el que se trabajó para esta actividad es parte de scikit-learn y se llama "iris". Este dataset trabaja con 3 clases diferentes de flores, Setosa, Versicolor y Virginica. Las características que se utilizan para la clasificación son 4, la longitud del sépalo, el ancho del sépalo, la longitud del sépalo, y ancho de pétalo. Este dataset puede cargarse utilizando "from sklearn.datasets import load_iris" y luego se puede guardar en una variable como "iris = load_iris()".
+[Dataset IRIS](https://www.kaggle.com/datasets/roswellwayoff/iris-data-set?select=iris.csv)
+El dataset con el que se trabajó para esta actividad es el dataset de "iris". 
+Este dataset trabaja con:
+* 3 clases diferentes de flores, Setosa, Versicolor y Virginica.
+* Las características que se utilizan para la clasificación son 4, la longitud del sépalo, el ancho del sépalo, la longitud del sépalo, y ancho de pétalo. 
 
 ## Cambios Sugeridos por Profesores (Aplica en Entrega Final)
+* Corrección de Rúbrica de entregable de portafolio de análisis.
+* Añadimos link donde podemos encontrar el dataset.
+* Añadimos que archivos se tienen que revisar.
+* Se incluye el problema a resolver 
+* Añadimos una parte al código donde llevamos a cabo pruebas con distintos hiperparámetros para crear tres predicciones y posteriormente comparar las predicciones con los valores que se debieron obtener.
+* Cambiamos un hiperparámetro y llevamos a cabo pruebas con ese nuevo hiperparámetro.
+
 
 ## Descripción breve de los datos incluidos en el dataset (cantidad de registros/muestras, número de características, número de clases de salida o rango de valores de salida)
-El dataset cuenta con 4 columnas (sepal length cm, sepal width cm, petal length cm, petal width cm) y 150 registros de datos todos de tipo float64, y 3 características (Iris Sectosa, Versicolor, Virginica). No contiene ningún valor null.
+El dataset cuenta con:
+* 4 atributos o columnas, sepal length cm, sepal width cm, petal length cm, petal width cm.
+* 150 registros de datos todos de tipo float64.
+* 3 características, Iris Sectosa, Versicolor, y Virginica.
+* Este dataset no contiene ningún valor null.
 
 ## Problema a resolver
-El problema a resolver con este dataset es la "clasificación" de las flores basado en las características en la base de datos.
+El problema a resolver con este dataset es la "clasificación" de las flores basadas en las características en la base de datos. Entrenar algoritmos que nos permitan clasificar nuevos datos basados en las características que se presentan en el dataset.
 
-## Métricas de desempreño para los subconjuntos de prueba y entrenamiento
+## Métricas de desempeño para los subconjuntos de prueba y entrenamiento
 - Accuracy -> mide la proporción de ejemplos clasificados en relación al otro conjunto, es decir, el de prueba con entrenamiento y vice versa.
 - Precisión -> Proporción de ejemplos positivos que hayan sido clasificados de manera correcta en relación al potro conjunto, es decir, el de prueba con entrenamiento y vice versa. Sirve para ver que tan confiables son las predicciones positivas.
 - Recall -> mide la proporción de ejemplos positivos que hayan sido clasificados de manera correcta en relación al potro conjunto, es decir, el de prueba con entrenamiento y vice versa. Sirve para ver que tantos valores positivos se detectaron correctamente. 
 - F1 Score -> combina la precisión y el recall en un solo conjunto para poder obtener la evaluación equilibrada del rendimiento de los datos que no se han visto.
 - Matriz de Confusión -> nos dice los verdaderos positivos, verdaderos negativos, falsos positivos y falsos negativos tenemos. 
+
+## Predicciones realizadas con valores de prueba y de validación
+Se llevaron a cabo 3 pruebas diferentes tanto con valores de prueba como con valores de validación donde los resultados fueron los siguientes:
+
+Predicción con modelo de Entropy y Max Depth 3:
+Prueba 1: ['Iris-setosa']
+Prueba 2: ['Iris-versicolor']
+Prueba 3: ['Iris-virginica']
+
+Predicción con modelo de Entropy y Max Depth 3:
+Prueba 1: ['Iris-setosa']
+Prueba 2: ['Iris-versicolor']
+Prueba 3: ['Iris-virginica']
+
+Predicción con modelo validacion:
+Prueba 1: ['Iris-setosa']
+Prueba 2: ['Iris-versicolor']
+Prueba 3: ['Iris-virginica']
+
+## Comparación entre predicciones generadas y los valores que debieron obtenerse
+Generamos una serie de pruebas con distintos hiperparámetros pero por motivos de espacio y orden, solo imprimimos 10 de los resultados de cada una de las pruebas.
+*Comparación de predicciones con valores reales (Entropy y Max Depth 3):*
+Predicción: Iris-setosa, Valor Real: Iris-setosa
+Predicción: Iris-versicolor, Valor Real: Iris-versicolor
+Predicción: Iris-versicolor, Valor Real: Iris-versicolor
+Predicción: Iris-setosa, Valor Real: Iris-setosa
+Predicción: Iris-virginica, Valor Real: Iris-virginica
+Predicción: Iris-versicolor, Valor Real: Iris-versicolor
+Predicción: Iris-virginica, Valor Real: Iris-virginica
+Predicción: Iris-setosa, Valor Real: Iris-setosa
+Predicción: Iris-setosa, Valor Real: Iris-setosa
+Predicción: Iris-virginica, Valor Real: Iris-virginica
+
+
+*Comparación de predicciones con valores reales (Entropy y Max Depth 4 y random state 25):*
+Predicción: Iris-setosa, Valor Real: Iris-setosa
+Predicción: Iris-versicolor, Valor Real: Iris-versicolor
+Predicción: Iris-virginica, Valor Real: Iris-versicolor
+Predicción: Iris-versicolor, Valor Real: Iris-versicolor
+Predicción: Iris-virginica, Valor Real: Iris-virginica
+Predicción: Iris-versicolor, Valor Real: Iris-versicolor
+Predicción: Iris-virginica, Valor Real: Iris-virginica
+Predicción: Iris-setosa, Valor Real: Iris-setosa
+Predicción: Iris-versicolor, Valor Real: Iris-versicolor
+Predicción: Iris-versicolor, Valor Real: Iris-versicolor
+
+
+*Comparación de predicciones con valores de Validacion:*
+Predicción: Iris-setosa, Valor Real: Iris-setosa
+Predicción: Iris-versicolor, Valor Real: Iris-versicolor
+Predicción: Iris-versicolor, Valor Real: Iris-versicolor
+Predicción: Iris-setosa, Valor Real: Iris-setosa
+Predicción: Iris-virginica, Valor Real: Iris-virginica
+Predicción: Iris-versicolor, Valor Real: Iris-versicolor
+Predicción: Iris-virginica, Valor Real: Iris-virginica
+Predicción: Iris-setosa, Valor Real: Iris-setosa
+Predicción: Iris-setosa, Valor Real: Iris-setosa
+Predicción: Iris-virginica, Valor Real: Iris-virginica
+
