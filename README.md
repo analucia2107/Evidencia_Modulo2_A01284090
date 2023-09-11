@@ -2,10 +2,10 @@
 
 # MomentoRetro_Modulo2_A01284090
 ### Archivos para evaluar
-* [Momento de Retroalimentación: Módulo 2 Uso de framework o biblioteca de aprendizaje máquina para la implementación de una solución. (Portafolio Implementación)](MomentoRetro_Modulo2_A01284090.ipynb)
-* [Momento de Retroalimentación: Módulo 2 Análisis y Reporte sobre el desempeño del modelo. (Portafolio Análisis)](https://github.com/analucia2107/MomentoRetro_Modulo2_A01284090/blob/main/MometoRetro_Modulo2_AnalisisyReporte_A01284090.ipynb)
-* [Evidencia Modulo 2](Evidencia_Modulo2_A01284090.ipynb)
-* [README](README.md)
+* [Momento de Retroalimentación: Módulo 2 Uso de framework o biblioteca de aprendizaje máquina para la implementación de una solución. (Portafolio Implementación)](MomentoRetro_Modulo2_A01284090.ipynb) - Primeras implementaciones de los modelos vistos en clase donde se espera retroalimentación para corregir y mejorar el trabajo presentado.
+* [Momento de Retroalimentación: Módulo 2 Análisis y Reporte sobre el desempeño del modelo. (Portafolio Análisis)](https://github.com/analucia2107/MomentoRetro_Modulo2_A01284090/blob/main/MometoRetro_Modulo2_AnalisisyReporte_A01284090.ipynb) - Primeras analisis de los modelos donde esperamos recibir retroalimentación para mejorar en nuestro análisis de la situación y del código implementdo.
+* [Evidencia Modulo 2](Evidencia_Modulo2_A01284090.ipynb) - Implementación y análisis de un decision classification tree con los datos de iris.csv. Se encuentra el proceso, resultados y un análisis de los puntos más importantes y sus resultados.
+* [README](README.md) - Este apartado incluye una descripción general del proyecto con los links para acceder a los códigos con los que fuimos trabajando durante el bloque.
 
 # Portafolio de Implementación
 ## Descripción del modelo
