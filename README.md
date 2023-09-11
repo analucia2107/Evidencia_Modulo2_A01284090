@@ -100,3 +100,41 @@ Generamos una serie de pruebas con distintos hiperparámetros pero por motivos d
 - Predicción: Iris-setosa, Valor Real: Iris-setosa
 - Predicción: Iris-virginica, Valor Real: Iris-virginica
 
+# Conclusiones sobre resultados
+Primero llevamoa a cabos pruebas con arboles de decisión con distintos parámetros,
+Primero:
+* Criterio: entropía
+* max_depth = 3
+* random state = 1
+En donde obtuvimos los siguientes resultados:
+* Accuracy = 0.9622
+* F1-Score = 0.9622
+* Confusion Matrix = [[19  0  0] [ 0 18  1] [ 0  1 14]]
+
+Segundo:
+* Criterio = Entropía
+* max_depth = 4
+* random state = 25
+En donde obtuvimos los siguientes resultados:
+* Accuracy = 0.9811
+* F1-Score = 0.9811
+* Confusion Matrix = [[22  0  0] [ 0 16  1] [ 0  0 14]]
+
+Tercero:
+* Criterio = Gini
+* random state = 42
+En donde obtuvimos los siguientes resultados:
+* Accuracy = 1
+* F1-Score = 1
+* Confusion Matrix = [[ 6  0  0] [ 0 10  0] [ 0  0  7]]
+
+
+Como el mejor valor que se obtuvo de accuracy y de F1-Score es de 1, el sesgo del conjunto de validación es de Bajo Sesgo, el cual se define como que tiene un alto rendimiento o un buen ajuste a los datos y que el modelo está capturando las relaciones de los datos de manera correcta.
+
+Por lo mismo que los valores que obtuvimos fueron de 1, la varianza es baja y no hay overfitting ni underfitting. Aunque en el caso de los datos de prueba, es posible mejorar el modelo si modificamos los parámetros. Ya vimos que al modificar los parámetros en la segunda prueba, obtuvimos una mejora de 2%, y con el conjunto de validación, pudimos obtener resultados de 100%.
+
+Para la varianza de las 3 pruebas que llevamos a cabo obtuvimos los siguientes resultados.
+
+* Entropy y Max Depth 3 = 0.657173
+* Entropy y Max Depth 4 (Random State 25) = 0.726949
+* Validación = 0.635813
