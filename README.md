@@ -4,6 +4,7 @@
 ### Archivos para evaluar
 * [Momento de Retroalimentación: Módulo 2 Uso de framework o biblioteca de aprendizaje máquina para la implementación de una solución. (Portafolio Implementación)](MomentoRetro_Modulo2_A01284090.ipynb)
 * [Momento de Retroalimentación: Módulo 2 Análisis y Reporte sobre el desempeño del modelo. (Portafolio Análisis)](https://github.com/analucia2107/MomentoRetro_Modulo2_A01284090/blob/main/MometoRetro_Modulo2_AnalisisyReporte_A01284090.ipynb)
+* [README](README.md)
 
 # Portafolio de Implementación
 ## Descripción del modelo
@@ -25,7 +26,8 @@ Este dataset trabaja con:
 * Se incluye el problema a resolver 
 * Añadimos una parte al código donde llevamos a cabo pruebas con distintos hiperparámetros para crear tres predicciones y posteriormente comparar las predicciones con los valores que se debieron obtener.
 * Cambiamos un hiperparámetro y llevamos a cabo pruebas con ese nuevo hiperparámetro.
-
+* Añadimos varianza
+* Añadimos podado para poder regularizar y mejorar el modelo
 
 ## Descripción breve de los datos incluidos en el dataset (cantidad de registros/muestras, número de características, número de clases de salida o rango de valores de salida)
 El dataset cuenta con:
